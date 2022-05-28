@@ -1,0 +1,803 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/*                     font-family: 'Oswald', sans-serif;                      */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/*                     font-family: 'Roboto', sans-serif;                           */
+*{
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/* ==================h==eader  */
+
+header{
+    padding-top: 15px;
+    padding-bottom: 140px;
+    /* background-image: url(img/header_img.png);
+    background-repeat: no-repeat;
+    background-position: 95% bottom;
+    background-attachment: scroll; */
+}
+header .header_main{
+    position: relative;
+}
+header .header_main::after{
+    content: url(img/header_img.png);
+    position: absolute;
+    top: 0;
+    transform:translateX(65%) translateY(-21%);
+}
+header nav{
+    align-items: center;
+}
+header nav .left ul {
+    display: flex;
+    margin-left: 60px;
+    align-items: center;
+    margin-top: 10px;
+}
+header nav .left ul li a{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 30px;
+}
+header nav button{
+    background: #0057FF;
+    border-radius: 30px;
+    padding: 14px 40px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 0;
+}
+header .header_main{
+    margin-top: 175px;
+}
+header .header_main h1{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 40px;
+}
+header .header_main p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+header .header_main button{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    background: #FFA332;
+    border-radius: 30px;
+    padding: 14px 40px;
+    margin-top: 40px;
+}
+/* ==================h==eader  */
+
+
+/* =====================about us  */
+.aboutus{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.aboutus h3{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #0057FF;
+    display: block;
+    margin: auto;
+    margin-bottom: 4px;
+    position: relative;
+}
+.aboutus h3::before{
+    content: url(img/event_before.png);
+    position: absolute;
+    /* left: -20px; */
+    transform: translateX(-45px) translateY(-70px);
+}
+.aboutus h1{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 40px;    
+}
+.aboutus h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+.aboutus a{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 40px;
+}
+.aboutus .images{
+    position: relative;
+    margin-top: 60px;
+}
+.aboutus .images::after{
+    content: url(img/aboutUS_orange.png);
+    position: absolute;
+    transform: translateX(-180px) translateY(322px);
+}
+.aboutus .images::before{
+    content: url(img/aboutUS_white.png);
+    position: absolute;
+    transform: translateX(-162px) translateY(26px);
+}
+
+/* =====================about us  */
+
+
+/* ============================== mail to  */
+.mailto{
+    margin-bottom: 200px;
+}
+.mailto .info h1 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 45px;
+}
+.mailto .info p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.mailto .info h2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.mailto .info h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.mailto .info img{
+    margin-bottom: 30px;
+}
+.mailto .info button{
+    background: #0057FF;
+    border-radius: 30px;
+    padding: 14px 40px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 25px;
+}
+.mailto .info{
+    margin-top: 14%;
+}
+
+.mailto .form{
+    background: #FFFFFF;
+    box-shadow: 0px 8px 28px rgba(83, 83, 83, 0.15);
+    border-radius: 15px;
+    position: relative;
+}
+.mailto .form::after{
+    content: url(img/form_green.png);
+    position: absolute;
+    transform: translateX(-94px) translateY(-154px);
+}
+.mailto .form::before{
+    content: url(img/form_white.png);
+    position: absolute;
+    transform: translateX(-56px) translateY(121px);
+}
+.mailto .form h1{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 55px;
+    margin-bottom: 26px;
+}
+.mailto .form h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 17px;
+}
+.mailto .form input{
+    background: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 60px;
+    color: #000000;
+    padding-left: 26px;
+    outline: none;
+    margin-left: 40px;
+    margin-bottom: 32px;
+}
+.mailto .form textarea{
+    background: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 26px;
+    outline: none;
+    resize: none;
+    padding-top: 20px;
+    margin-left: 40px;
+    width: 79.5%;
+    height: 140px;
+    padding-right: 100px;
+}
+.mailto .form button{
+    background: #0057FF;
+    border-radius: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 40px;
+    width: 79.5%;
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
+
+/* ============================== mail to  */
+
+
+/* ================================accardionpart */
+.accardionpart {
+    margin-bottom: 120px;
+}
+
+.accardionpart h1{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 48px;
+}
+.accardionpart h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-button::after{
+    background-image: url(img/accardion_plust.png);
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(img/accardion_plust.png);
+}
+.accordion-button:not(.collapsed){
+    background-color: white;
+    color: black;
+    box-shadow: none;
+}
+.accardionpart button{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.accordion-item{
+    border: none;
+}
+.accordion{
+    border: 1px solid #E7E7E7;
+    border-radius: 20px;
+    width: 500px;
+    margin-top: 50px;
+}
+
+
+
+
+/* ================================accardionpart */
+
+
+
+/* ====================================== ==prescents  */
+.percents{
+    padding-bottom: 30px;
+    margin-bottom: 200px;
+}
+.percents .left{
+    margin-top: 9.5%;
+}
+.percents .left h1{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.percents .left h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 35px;
+}
+.percents .left h3{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 10px;
+}
+.percents .left h4{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #000000;
+    margin-right: 10px;
+}
+.percents .left .progress-div{
+    width: 540px;
+    margin-bottom: 20px;
+}
+.percents .left .progress-div .progress{
+    height: 4px;
+}
+.percents .left .progress-div .progress .progress-bar{
+    background: #0057FF;
+    border-radius: 100px;
+}
+
+
+.percents .ticket{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(83, 83, 83, 0.15);
+    border-radius: 10px;
+}
+.percents .ticket h1{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+}
+.percents .ticket h2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.percents .ticket h3{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 110px;
+    margin-bottom: 15px;
+}
+.percents .ticket button{
+    background: #0057FF;
+    border-radius: 30px;
+    padding: 14px 40px;
+    border: none;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 40px 0px;
+}
+
+/* ====================================== ==prescents  */
+
+
+/* ================================== slider  */
+/* .slider .container-fluid{
+    width: 91%;
+    margin-right: 0;
+} */
+.swiper {
+    padding-bottom: 70px;
+}
+.slider {
+    padding-bottom: 100px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    height: 346px !important;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 45px;
+}
+.swiper .first{
+    margin-left: 8%;
+}
+.swiper-pagination-bullet-active{
+    background: black;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    content: url(img/swiper.png);
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    right: 11.5%;
+}
+
+
+
+
+/* ================================== slider  */
+
+
+/* =================sitata  */
+.sitata{
+    height: 500px;
+    padding-top: 132px;
+}
+.sitata {
+    background-image: url(img/sitata_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.sitata h2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #0057FF;
+    margin-bottom: 30px;
+}
+.sitata h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 37px;
+}
+.sitata button{
+    padding: 14px 40px;
+    background: #0057FF;
+    border-radius: 30px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* =================sitata  */
+
+
+/* ============================= img line  */
+
+.imgline {
+    height: 168px;
+    margin-bottom: 100px;
+}
+.imgline .container {
+    height: 168px;
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+}
+.imgline a {
+    display: flex;
+    align-items: center;
+    margin: 0 37px;
+}
+.imgline a img {
+    width: 141px;
+    height: 40px;
+}
+
+/* ============================= img line  */
+
+
+/* ===================n   neewws  */
+.news{
+    margin-bottom: 100px;
+}
+.news .container{
+    position: relative;
+}
+.news .container::before{
+    content: url(img/news_green.png);
+    position: absolute;
+    transform: translateX(-48px) translateY(49px);
+}
+
+.news h6{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #0057FF;
+    margin-bottom: 5px;
+}
+.news h1{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 65px;
+}
+
+.news .left a{
+    text-decoration: none;
+}
+.news .left .top {
+    background: #FFFFFF;
+    border: 1px solid #D9DCEC;
+    border-radius: 10px;
+    padding: 21px 90px 19px 21px;
+}
+.news .left img {
+    margin-right: 30px;
+}
+.news .left h4{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #0057FF;
+    margin-top: 20px;
+}
+.news .left h3{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.news .left p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.news .right{
+    background: #FFFFFF;
+    border: 1px solid #D9DCEC;
+    border-radius: 10px;
+    padding: 21px;
+    margin-left: 16px;
+}
+
+/* ===================n   neewws  */
+
+
+/* ============================== =footer/footer */
+
+footer {
+    background-color: black;
+}
+footer .left{
+    margin-top: 60px;
+}
+footer .left h4{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #999999;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+footer .left h4 span{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+footer .right ul {
+    display: flex;
+    margin-top: 61px;
+    margin-bottom: 50px;
+}
+footer .right ul li a {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer .right .imagessocial{
+    margin-left: 220px;
+}
+footer .right .imagessocial a {
+    margin-left: 4px;
+}
+
+/* ============================== =footer/footer */
+
+
+
+
+
+
+
+
+@media (min-width:1900px) {
+    .swiper .first{
+        margin-left: 16%;
+    }
+    .swiper-button-next, .swiper-rtl .swiper-button-prev{
+        right: 19.75%;
+    }
+}
